@@ -81,10 +81,7 @@ fontPicker.addEventListener('change',(e)=>{
 });
 
 clearButton.addEventListener('click',()=>{
-  const backgroundColor = ctx.fillStyle;
   ctx.clearRect(0,0,canvas.width,canvas.height);
-  ctx.fillStyle = backgroundColor;
-  ctx.fillRect(0,0,canvas.width,canvas.height);
 });
 
 saveButton.addEventListener('click',()=>{
